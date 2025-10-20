@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Whispers of the Heart</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style>
+    .glow {
+      box-shadow: 0 0 10px theme('colors.primary'), 0 0 20px theme('colors.primary'), 0 0 30px theme('colors.primary/50'), 0 0 40px theme('colors.primary/30');
+    }
+    .text-glow {
+      text-shadow: 0 0 5px theme('colors.white'), 0 0 10px theme('colors.white'), 0 0 15px theme('colors.primary/50');
+    }
+    .testimonial-bubble {
+      position: relative;
+      background: theme('colors.primary/10');
+      border-radius: theme('borderRadius.xl');
+      padding: 1.5rem;
+    }
+    .testimonial-bubble::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border: 20px solid transparent;
+      border-top-color: theme('colors.primary/10');
+      border-bottom: 0;
+      margin-left: -20px;
+      margin-bottom: -20px;
+    }
+    .dark .testimonial-bubble {
+      background: theme('colors.primary/20');
+    }
+    .dark .testimonial-bubble::after {
+      border-top-color: theme('colors.primary/20');
+    }
+  </style>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#f04299",
+            "background-light": "#f8f6f7",
+            "background-dark": "#221019",
+          },
+          fontFamily: {
+            "display": ["Epilogue"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "1rem",
+            "xl": "1.5rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200 transition-colors duration-500">
+<div class="relative min-h-screen w-full flex flex-col justify-between overflow-x-hidden">
+<main>
+<div class="relative">
+<div class="absolute inset-0 bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCBV3w5JxtlYFGyUETud8HWBJt-O-U722Ucn5x-0Lm_s_WB-ZhzoKbb6kScwcLTfWpImF8HfAsSxJPSZawUK8IGA6SeU4ZtKGsXu-okyWYi5VTI8cKS5J9tN0tZpgVu398RmbHCKELE8k1Hznd1IgFjC2IonjFL-7w1xq3mdfXql-wcj0ZyMU2xmBd3f6MXJ0sY-rSh1467jLGAUXFFxPfAnr5rsTHPz2CUdsMLM8B4NG7xpNTPxNjgygfrIvz57-8ez1H4rdh018M");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark/80 via-background-dark/40 to-transparent"></div>
+<div class="relative flex min-h-[80vh] flex-col items-center justify-center gap-6 p-6 text-center text-white">
+<h1 class="text-5xl md:text-7xl font-black leading-tight tracking-tighter text-glow animate-pulse">
+            Whispers of the Heart - SVDU confessions
+          </h1>
+<p class="max-w-lg text-base md:text-lg font-light leading-relaxed">
+            Share your deepest feelings anonymously and connect with others in a safe, loving, and ethereal space.
+          </p>
+<a class="mt-4 flex min-w-[84px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-primary text-white text-base font-bold shadow-lg transition-transform duration-300 hover:scale-105 glow" href="#submit">
+<span class="truncate">Submit a Confession</span>
+</a>
+</div>
+</div>
+<div class="bg-background-light dark:bg-background-dark py-16 px-4 @container">
+<div class="max-w-4xl mx-auto">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white">Embrace Your Truth</h2>
+<p class="mt-4 text-lg leading-relaxed text-gray-600 dark:text-gray-400">Discover the beauty of sharing your heart's whispers in a community built on love and understanding.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="flex flex-col gap-4 text-center items-center p-6 rounded-xl bg-background-light/50 dark:bg-background-dark/50 border border-primary/20 shadow-lg transition-all duration-300 hover:shadow-primary/20 hover:-translate-y-1">
+<div class="w-full aspect-square rounded-lg bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDOGJlB67ux2teK6VzyaJ2dwHy-T0_M1Jw23lf6mC5tvlyN7bK2IcxCuowtC5dby5dizghXr9qznHtPmUpizHi236byeMfK9XWtjRuMMiHDwXCCcQ-SWWXh3C4vIwVGwzC8g6D9XgY8ezTrElUUki8gRqrwUiPt78NQza2DYrvIfs86W_dRUx_Wvh-M7EoMrCk7jtcWpaBhsH2oR16HvteyHaOYOoBet93c_GZIOb_cNv1JWNfJNmJale7BWP9tV4sNrvnUd-ptRnA");'></div>
+<div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white">Anonymous Sharing</h3>
+<p class="text-gray-600 dark:text-gray-400 mt-2">Express your feelings without revealing your identity, fostering genuine connections.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 text-center items-center p-6 rounded-xl bg-background-light/50 dark:bg-background-dark/50 border border-primary/20 shadow-lg transition-all duration-300 hover:shadow-primary/20 hover:-translate-y-1">
+<div class="w-full aspect-square rounded-lg bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD8-BKu54_Nr7pBvt2tszaGvSbEIMqZOjvDksF_rSQ7baOpgFM2n2S8Fwd32LA940Nqpbxr7C2pghUQpuVL2uoKsFou0gLbpshpCB4uruVBB5cagpmxsC-kVIXv0KagB2dQRcqAkGhl-GmDpMhSwN6jY7n-tw_2cVRNI0rCRrGo1UXxQ7w_uWYQV41yhSXFhSYAiY5WXpD6cLFkNpSCBeEIHHKuAvULXJOp-Cd8s75I4voXY9iCOvmeKsQTG562s9caWenJGietv5M");'></div>
+<div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white">Supportive Community</h3>
+<p class="text-gray-600 dark:text-gray-400 mt-2">Find comfort and support in a community that values empathy and kindness.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 text-center items-center p-6 rounded-xl bg-background-light/50 dark:bg-background-dark/50 border border-primary/20 shadow-lg transition-all duration-300 hover:shadow-primary/20 hover:-translate-y-1">
+<div class="w-full aspect-square rounded-lg bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDZhO60DFf0Ui_FxWY0_Aa3Ug2wT3_vXL8aNsEJJUekwYb8ruRak5FL7cguors5s2uyg2TLwC1-eOpDA5wielB4dcJYuewGuHy-GGtu0PM_-dW_2etEKfQD3xamG8AP6_pcB9zYi4MqFWDsZ1ft4uL0vjD4URT5-Ua_mykkc3QTWieVvIt5JpTdnNYk-_rbPA8aLymSQ5rYcFHLaTPyu3X2Nw7cwhYwduj1xt9Xw9Tx_Ro4dAEQPmnEVIcbMW2srRiyDu0BosrMJjY");'></div>
+<div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white">Artistic Expression</h3>
+<p class="text-gray-600 dark:text-gray-400 mt-2">Share your confessions in a visually stunning and creative way, celebrating your emotions.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-background-light dark:bg-background-dark py-16 px-4">
+<div class="max-w-4xl mx-auto">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white">Voices from our Community</h2>
+<p class="mt-4 text-lg leading-relaxed text-gray-600 dark:text-gray-400">See what students are saying about their journey with us.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="flex flex-col items-center text-center gap-4">
+<div class="testimonial-bubble">
+<p class="text-lg italic text-gray-800 dark:text-gray-200">"Finally, a place where I can be myself without judgment. It's so liberating to share my thoughts and see I'm not alone."</p>
+</div>
+<p class="mt-4 text-base font-bold text-primary">- Sarah, Sophomore</p>
+</div>
+<div class="flex flex-col items-center text-center gap-4">
+<div class="testimonial-bubble">
+<p class="text-lg italic text-gray-800 dark:text-gray-200">"The artistic themes make every confession feel like a piece of art. It's a beautiful way to process emotions."</p>
+</div>
+<p class="mt-4 text-base font-bold text-primary">- Alex, Final Year</p>
+</div>
+<div class="flex flex-col items-center text-center gap-4 md:col-span-2">
+<div class="testimonial-bubble">
+<p class="text-lg italic text-gray-800 dark:text-gray-200">"I've found so much support here. Reading other people's stories has helped me feel more connected to my campus community."</p>
+</div>
+<p class="mt-4 text-base font-bold text-primary">- Chloe, Freshman</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-primary/10 dark:bg-primary/20 py-16 px-4" id="submit">
+<div class="max-w-2xl mx-auto text-center">
+<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Ready to Share?</h2>
+<p class="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">Join our community and let your voice be heard. Submit your confession to start your journey.</p>
+<div class="mt-10 flex items-center justify-center">
+<a class="flex min-w-[84px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-primary text-white text-base font-bold shadow-lg transition-transform duration-300 hover:scale-105 glow" href="#">
+<span class="truncate">Download the App</span>
+</a>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-background-light dark:bg-background-dark">
+<div class="mx-auto max-w-7xl overflow-hidden px-6 py-12 lg:px-8">
+<p class="text-center text-xs leading-5 text-gray-500 dark:text-gray-400">© 2024 Whispers of the Heart. All rights reserved.</p>
+</div>
+</footer>
+</div>
+
+</body></html>
